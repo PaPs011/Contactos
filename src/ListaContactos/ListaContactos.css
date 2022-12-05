@@ -4,3 +4,11 @@
     border-radius: 8px;
     
 }
+
+.titulo .contactos{
+    position: relative;
+    right: 55px;
+    font-size: 22px;
+    top: 5px;
+}
+

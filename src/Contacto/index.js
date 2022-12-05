@@ -7,10 +7,10 @@ function Contacto(props) {
     }
     return(
         <div className="botonB">
-            <p> {props.nombre}</p>
-            <p> {props.correo}</p>
-            <p> {props.telefono}</p>
-           <button onClick={borrar}>Borrar</button>
+            <p className="nombre"> {props.nombre}</p>
+            <p className="correo"> {props.correo}</p>
+            <p className="telefono"> {props.telefono}</p>
+           <button className="borrar" onClick={borrar}>Borrar</button>
         </div>
     )
 }

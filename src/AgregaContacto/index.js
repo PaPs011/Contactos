@@ -48,8 +48,7 @@ function modalCancelar(){
 
     return(
         <React.Fragment>
-        <div>
-            <button>Agregar Contacto</button>
+        <div className="todo">    
         <div className="principal">
             <form>
                 <h2>Nombre</h2>

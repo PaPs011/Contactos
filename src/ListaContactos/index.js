@@ -4,7 +4,7 @@ import './ListaContactos.css';
 function ListContactos(props) {
     return(
         <div className="titulo">
-            <h2>Mis contactos</h2>
+            <h2 className="contactos">Mis contactos</h2>
             {props.children}
         </div>
     )

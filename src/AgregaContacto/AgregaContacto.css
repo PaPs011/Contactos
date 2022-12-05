@@ -16,6 +16,8 @@
     left: 42.3%;
     border-radius: 10px;
     padding-top: 10px;
+    position: absolute;
+    top: 20%;
 }
 
 .principal form button{
@@ -28,14 +30,15 @@
 
 .principal form .aceptar{
     background-color: green;
-    color:rgb(255, 255, 255);
+    color:rgb(219, 219, 219);
     transition: all 0.5s ease;
     cursor: pointer;
     border-radius: 5px;
+    border: none;
 }
 
 .principal form .aceptar:hover{
-    background-color: transparent;
+    background-color: rgb(5, 255, 101);
     color: black;
 }
 
@@ -45,9 +48,10 @@
     transition: all 0.5s ease;
     cursor: pointer;
     border-radius: 5px;
+    border: none;
 }
 
 .principal form .cerrar:hover{
-    background-color: transparent;
+    background-color: rgb(238, 57, 57);
     color: black;
 }
